@@ -1,0 +1,99 @@
+:root{
+    --cor-primaria: #02142a;
+    --cor-secundaria: rgba(0, 0, 0, 0.2);
+    --cor-clara: rgb(30, 202, 232);
+    --cor-escura: rgba(202, 93, 227);
+    --cor-destaque: rgba(0, 255, 255);
+}
+body {
+    background-color: #1c8ca0;
+    color: aliceblue;
+}
+
+h1,
+h2 {
+    color: rgb(6, 250, 213);
+}
+
+a {
+    color: aqua;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    color: var();
+    padding:  1rem;
+    box-shadow: var(--cor-secundaria);
+    background: linear-gradient(135deg, var(--cor-primaria), var(--cor-clara) );
+    line-height: 2rem;
+}
+header {
+    text-align: center;
+    padding: 3rem 1rem;
+    /* box-shadow: 5px 5px rgda(255, 0, 0, 0.5); */
+
+}
+head h1{
+    font-size: 2rem;
+
+}
+main{
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+section{
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 5px 4px 5px 3px rgba(5, 19, 171, 0.2);
+}
+section*{
+    margin: 0.3rem;
+
+}
+section .topico {
+    margin: 3rem 0rem;
+}
+footer{
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.9rem;
+}
+@keyframes fadeInDown{
+    from{
+        opacity: 0;
+        transform: translateY(-30px);
+
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes fadeInUp{
+    from{
+        opacity: 0;
+        transform: translateY(30px);
+
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+
+    }
+    to{
+        opacity: 1;
+    }
+}
